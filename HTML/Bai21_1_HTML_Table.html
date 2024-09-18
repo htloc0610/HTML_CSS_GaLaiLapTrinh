@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML_Table</title>
+  </head>
+  <body>
+    <!--
+        tr: table row -> đại diện cho 1 hàng trong bảng html
+        td: table data -> định nghĩa 1 ô dữ liệu trong 1 bảng
+        th: table header -> định nghĩa một ô tiêu đề trong bảng
+    -->
+
+    <!-- 
+        thread: table header -> Định nghĩa phần đầu của bảng
+        -> Thường chứa các ô tiêu đề ("th") của các cột trong bảng
+
+        
+        tbody: table body -> Định nghĩa phần thân của bảng
+        -> Thường chứa các thẻ "tr" và các ô dữ liệu ("td") tương ứng
+
+        tfoot: table footer -> Định nghĩa phần cuối của bảng
+        -> Thường chứa các ô chú thích, tổng kết, hoặc thông tin cuối cùng về bảng
+
+        -> Cấu trúc bảng rõ ràng, hỗ trợ tốt hơn cho công cụ tìm kiếm, hỗ trợ trình đọc máy cho người khiếm thị
+    -->
+    <h1>Học Table</h1>
+    <table>
+      <thead>
+        <tr>
+          <th>Tên sản phẩm</th>
+          <th>Giá</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Áo phông</td>
+          <td>100.000 VNĐ</td>
+        </tr>
+        <tr>
+          <td>Quần Jean</td>
+          <td>200.000 VNĐ</td>
+        </tr>
+      </tbody>
+
+      <tfoot>
+        <tr>
+          <td>Tổng cộng</td>
+          <td>300.000 VNĐ</td>
+        </tr>
+      </tfoot>
+    </table>
+  </body>
+</html>
