@@ -3,9 +3,36 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>CSS Selector</title>
   </head>
   <body>
     <!-- https://www.w3schools.com/cssref/css_selectors.php -->
+
+    <!-- ID selector: 
+     Khi chỉ muốn áp dụng css cho 1 phần tử chỉ định nào đó của html -> dùng id
+     ID là duy nhất, theo quy chuẩn không cho phép đặt trùng id đã có
+     ID, Class không được đặt tên bắt đầu bằng số, nên để _ hoặc - để nối -->
+
+    <!-- Class selector: 
+    Không thể sử dụng lại id -> muốn khai báo lặp 
+    -->
+
+    <h1>Tiêu đề lớn nhất</h1>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit aperiam
+      stinctio dicta debitis mollitia reprehenderit? Dicta quaerat laboriosam
+      molestiae quia tenetur ullam alias repellat dolorem,
+    </p>
+    <p>Đoạn văn thứ 1</p>
+    <p id="doanVan2">Đoạn văn thứ 2</p>
+    <p>Đoạn văn thứ 3</p>
+    <p class="demo">Đoạn văn thứ 4</p>
+    <h2 class="demo demo2">Thẻ tiêu đề h2</h2>
+    <ul class="item_ul_1">
+      <li>item 1</li>
+      <li>item 2</li>
+      <li>item 3</li>
+    </ul>
   </body>
 </html>

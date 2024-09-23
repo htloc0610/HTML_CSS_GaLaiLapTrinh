@@ -1,0 +1,20 @@
+p {
+  color: red;
+  font-size: 20px;
+}
+
+h1 {
+  color: blue;
+}
+
+#doanVan2 {
+  color: black;
+}
+
+.demo2 {
+  color: blueviolet;
+}
+/* * -> chọn tất cả */
+.item_ul_1 {
+  list-style: none;
+}
