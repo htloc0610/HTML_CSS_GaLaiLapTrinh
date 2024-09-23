@@ -1,0 +1,31 @@
+body {
+  background-image: url(/HTML/img/frieren-sousou-no-frieren-anime-4k-wallpaper-uhdpaper.com-601@1@n.jpg);
+}
+
+/* Opacity: Quy định độ trong suốt
+0.0 -> 1
+0% -> 100
+mờ nhất -> rõ nhất 
+Không nhìn thấy trên giao diện, vẫn chiếm không gian, vẫn tương tác được
+Bao gồm cả nền */
+h2 {
+  opacity: 0.5;
+  background-color: aqua;
+}
+
+/* Display: none
+Ẩn phần tử khỏi giao diện (xoá cả không gian nó đang chiếm) */
+h3 {
+  display: none;
+  background-color: aqua;
+}
+
+/* Visibility: ẩn hoặc hiện element 
+Không thấy trên giao diện, vẫn chiếm không gian, không tương tác được
+*/
+h4 {
+  /* ẩn */
+  visibility: hidden;
+  /* hiện */
+  visibility: visible;
+}

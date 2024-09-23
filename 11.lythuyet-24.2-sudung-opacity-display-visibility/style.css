@@ -1,0 +1,12 @@
+img {
+  transition: 1.5s;
+}
+
+input:checked ~ img {
+  /* 1. Nếu muốn biết mất khỏi giao diện -> không hỗ trợ animation */
+  /* display: none; */
+  /* 2. Biến mất khỏi giao diện, nhưng vẫn chiếm vị trí, không tương tác được */
+  visibility: hidden;
+  /* 3. Biến mất khỏi giao diện, vẫn chiếm vị trí, vẫn tương tác được */
+  /* opacity: 0; */
+}
