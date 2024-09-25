@@ -1,0 +1,33 @@
+/* .di_chuot:hover {
+  color: red;
+} */
+
+/* .di_chuot:active {
+  color: red;
+} */
+
+/* Chưa truy cập */
+/* .click_me:link {
+  color: antiquewhite;
+} */
+
+/* Đã truy cập */
+/* .click_me:visited {
+  color: red;
+} */
+
+.div_elm:empty {
+  background-color: blue;
+  height: 20px;
+  width: 20px;
+}
+
+.div_elm {
+  background-color: red;
+  height: 60px;
+  width: 60px;
+}
+
+h2:target {
+  color: blue;
+}

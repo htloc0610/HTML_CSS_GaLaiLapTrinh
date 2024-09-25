@@ -1,0 +1,43 @@
+/* [href] {
+  color: red;
+} */
+
+/* Chỉ tác động thẻ a có thuộc tính là href */
+/* a[href] {
+  color: blue;
+} */
+
+/* Attribute = value */
+/* [target="_blank"] {
+  color: blueviolet;
+  font-size: 30px;
+} */
+
+/* Attribute ~= value */
+/* Tất cả thuộc tính có chứ từ value trong attribute */
+/* a[title~="pic"][title~="so"] {
+  color: red;
+} */
+
+/* Attribute |= value */
+/* 1 từ duy nhất, bắt đầu bằng value, sau value phải được nối bằng gạch ngang*/
+/* a[title|="pic"] {
+  color: red;
+} */
+
+/* Attribute ^= value */
+/* Bắt đầu bằng value, sau value không quan tâm*/
+/* a[title^="pic"] {
+  color: blue;
+} */
+
+/* Attribute *= value */
+a[title*="pic"] {
+  color: rgb(242, 33, 33);
+}
+
+/* Attribute $= value */
+/* Kết thúc bằng ký tự value */
+a[title$="1"] {
+  color: rebeccapurple;
+}

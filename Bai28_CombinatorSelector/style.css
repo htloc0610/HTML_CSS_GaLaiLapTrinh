@@ -1,4 +1,51 @@
-* {
+/* Sử dụng dấu , */
+/* h1,
+h2,
+p,
+ul {
   color: red;
   font-size: 24px;
-}
+} */
+
+/* p,
+.demo {
+  color: black;
+} */
+
+/* <!-- Space selectors --> */
+/* .demo.demo2 {
+  color: aquamarine;
+} */
+
+/* .loi_chuc p {
+  font-size: 30px;
+  color: blanchedalmond;
+} */
+
+/* Chỉ quan tâm đến thẻ con */
+/* div > p {
+  color: red;
+} */
+
+/* Chỉ quan tâm đến tất cả thẻ p
+div p {
+  color: red;
+} */
+
+/* element + element: chọn phần tử đầu tiên được đặt ngay sau phần tử */
+
+/* Thẻ h2 liền ngay sau h1 */
+/* h1 + h2 {
+  color: blue;
+  font-size: 30px;
+} */
+
+/* .demo2 + h3 {
+  color: blue;
+  font-size: 30px;
+} */
+
+/* ~ : chọn tất cả thẻ đằng sau */
+/* div ~ a {
+  color: aqua;
+} */
