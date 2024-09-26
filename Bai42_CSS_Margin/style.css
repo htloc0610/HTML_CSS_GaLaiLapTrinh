@@ -1,0 +1,148 @@
+/* .box {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  padding: 10px;
+  border: 10px solid blue;
+  margin: 15px;
+} */
+
+/* .box {
+  width: 80px;
+  height: 80px;
+  padding: 20px;
+} */
+
+/* .box.box1 {
+  border: 10px;
+  border-color: violet;
+  border-style: solid;
+  background-color: aliceblue;
+} */
+
+/* .box.box2 {
+  border: 15px;
+  border-color: rgb(6, 19, 4);
+  border-style: solid;
+  background-color: rgb(12, 172, 49);
+  margin-left: 140px;
+} */
+
+/* .box.box3 {
+  border: 10px;
+  border-color: rgb(209, 20, 13);
+  border-style: solid;
+  background-color: rgb(109, 164, 140);
+  margin-left: 290px;
+} */
+
+/* body {
+  background-color: #ddd;
+} */
+
+/* .container h1 {
+  font-size: 40px;
+} */
+
+/* .container p {
+  font-size: 24px;
+  line-height: 1.4;
+} */
+
+/* .container {
+  margin: 0 auto;
+  width: 500px;
+  background-color: yellow;
+} */
+
+/* .container img {
+  max-width: 450px;
+} */
+
+/* 
+div {
+  height: 200px;
+  width: 200px;
+  border: 30px solid blue;
+  margin-left: -8px;
+} */
+/* 
+.avatar {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 1px solid #ccc;
+  margin-left: -70px;
+}
+
+.avatar:first-child {
+  margin-left: 0px;
+} */
+
+/* .content {
+  background-color: yellow;
+  padding: 40px;
+} */
+
+/* Margin Collapse */
+/* .box {
+  width: 200px;
+  height: 200px;
+  border: 10px solid red;
+}
+
+.box1 {
+  margin-bottom: 50px;
+}
+
+.box2 {
+  margin-top: 70px;
+} */
+
+/* Margin collapse không bị theo chiều ngang */
+/* .item {
+  background-color: yellow;
+  border: 2px solid red;
+}
+
+.item1 {
+  margin-right: 10px;
+}
+
+.item2 {
+  margin-left: 20px;
+  margin-right: 10px;
+} */
+
+/* Xử lý collapse */
+/* body {
+  display: flex;
+  flex-direction: column;
+}
+.box {
+  width: 200px;
+  height: 200px;
+  border: 10px solid red;
+}
+
+.box1 {
+  margin-bottom: 50px;
+}
+
+.box2 {
+  margin-top: 70px;
+} */
+
+.box_parent {
+  background-color: pink;
+  height: 250px;
+  margin-top: 120px;
+  display: flex;
+  flex-direction: column;
+}
+
+.box_child {
+  width: 50%;
+  background-color: blue;
+  margin-top: 100px;
+}

@@ -1,0 +1,18 @@
+div {
+  background-color: blue;
+  width: 60px;
+  height: 60px;
+  padding: 40px;
+  /* border: 10px dashed red; */
+  /* border-left: 10px dotted pink;
+  border-right: 10px groove yellow;
+  border-bottom: 10px dashed red;
+  border-top: 10px inset rgb(28, 3, 3); */
+  /* Trên dưới trái phải */
+  /* border-width: 10px 20px 30px 40px; */
+  border: 10px;
+  border-color: black;
+  border-style: solid;
+  border-radius: 30px;
+  /* border-bottom-left-radius: 50px; */
+}
