@@ -10,10 +10,26 @@ p:nth-child(2) {
   color: blue;
 } */
 
-p:nth-child(even) {
+/* p:nth-child(even) {
   color: blue;
 }
 
 p:nth-last-child(2) {
   color: blueviolet;
+} */
+
+/* p:only-child {
+  color: aqua;
+} */
+
+/* p:first-of-type {
+  color: aqua;
+} */
+
+/* p:nth-of-type(2) {
+  color: aquamarine;
+} */
+
+p:only-of-type {
+  color: red;
 }

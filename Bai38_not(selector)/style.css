@@ -1,0 +1,11 @@
+/* .top:not(p) {
+  color: red;
+} */
+
+/* .top:not(:first-child) {
+  color: blue;
+} */
+
+div > p {
+  color: red;
+}

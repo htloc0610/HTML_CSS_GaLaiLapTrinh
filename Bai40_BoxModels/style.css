@@ -1,0 +1,9 @@
+/* padding top bottom left right -> có nhiều thuộc tính */
+
+div {
+  width: 100px;
+  height: 100px;
+  color: yellow;
+  background-color: red;
+  padding: 25px;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>not(selector)</title>
+  </head>
+  <body>
+    <!-- :not(selector) : chọn các thẻ loại trừ thẻ selector
+    -->
+
+    <!-- Thứ tự ưu tiên
+        !important -> inline style -> id -> class, pseudo-class 
+        -> element selector (h, p, ...) -> universal selector(*)
+    -->
+
+    <!-- 
+        > : con trực tiếp
+    -->
+    <div>
+      <h1 class="top">Tự học.cc 1</h1>
+      <p class="top">Tự học lập trình</p>
+      <h2 class="top">Tự học.cc 2</h2>
+    </div>
+
+    <div>
+      <h1 class="top">Tuhoc.cc</h1>
+      <p class="top">Tự học lập trình 1.</p>
+      <p class="top">Tự học lập trình 2.</p>
+      <block><p>Haha</p></block>
+      <p class="top">Tự học lập trình 3.</p>
+      <h2 class="top">Tuhoc.cc</h2>
+    </div>
+  </body>
+</html>
