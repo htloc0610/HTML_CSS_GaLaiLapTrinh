@@ -1,0 +1,11 @@
+body {
+  width: 600px;
+}
+
+/* display:inline-block */
+strong {
+  background-color: blue;
+  height: 100px;
+  width: 100px;
+  display: inline-block;
+}
