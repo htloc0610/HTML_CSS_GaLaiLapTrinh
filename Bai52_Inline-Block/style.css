@@ -1,0 +1,115 @@
+/* Thẻ tự co dãn theo chiều dài */
+/* body {
+  height: 150px;
+  background-color: aqua;
+} */
+
+/* inline: không tác động được mấy thẻ căng trên dưới,chiều dài, chiều ngang */
+/* 
+  1. padding-top, padding-bottom
+  2. margin-top, margin-bottom
+  3. width, height, min-with, min-height
+  */
+/* a {
+  text-decoration: none;
+  background-color: pink;
+  border-radius: 999px;
+  color: black;
+  display: inline-block;
+  width: 100px;
+  padding: 8px 16px;
+  text-align: center;
+  margin-top: 30px;
+} */
+
+/* a:hover {
+  background-color: black;
+  color: pink;
+} */
+
+/* h2 {
+  font-size: 30px;
+  width: 150px;
+  height: 80px;
+  background-color: yellow;
+} */
+
+/* p {
+  width: 50%;
+  height: 50px;
+  background-color: blue;
+} */
+
+/* .box {
+  background-color: green;
+  height: 50%;
+  width: 60%;
+} */
+
+/* .box_child {
+  background-color: yellow;
+  height: 40%;
+  width: 50%;
+} */
+
+/* .parent {
+  width: 80vw;
+  height: 80vh;
+  background-color: blue;
+} */
+
+/* 
+.parent {
+  font-size: 6px;
+}
+
+.child {
+  width: 10em;
+  height: 10em;
+  background-color: violet;
+} */
+
+/* Giảm font-size html xuống 62.5% */
+/* .parent {
+  font-size: 10px;
+}
+
+.child {
+  width: 10rem;
+  height: 10rem;
+  background-color: violet;
+} */
+
+/* Giảm font-size html xuống 62.5% */
+/* font-size: 62.5%; */
+/* html {
+  font-size: 62.5px;
+}
+
+.parent {
+  font-size: 10px;
+}
+
+.child {
+  width: 10rem;
+  height: 10rem;
+  background-color: violet;
+} */
+
+html {
+  font-size: 62.5%;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+p {
+  font-size: 2.3rem;
+}
+
+.box {
+  width: 20rem;
+  height: 15rem;
+  background-color: blue;
+}

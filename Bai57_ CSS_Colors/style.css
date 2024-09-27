@@ -1,0 +1,7 @@
+h1 {
+  /* color: rgb(221, 16, 16); */
+  /* color: rgba(201, 22, 22, 0.742); */
+  /* currentColor có thể kế thừa */
+  color: #c3141490;
+  background-color: currentColor;
+}
