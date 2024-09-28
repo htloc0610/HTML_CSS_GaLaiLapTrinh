@@ -1,0 +1,24 @@
+/* body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+} */
+
+body {
+  font-family: "ABeeZee", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* font-weight line-weight */
+p {
+  font-family: "Roboto", sans-serif;
+  font-weight: lighter;
+  font-style: normal;
+  line-height: 150%;
+}
+
+h1 {
+  height: 120px;
+  background-color: blue;
+  line-height: 120px;
+}

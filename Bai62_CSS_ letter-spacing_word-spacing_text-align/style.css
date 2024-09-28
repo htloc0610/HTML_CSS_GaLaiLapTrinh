@@ -1,0 +1,13 @@
+/* text-align: justify; dàn đều 2 bên*/
+p {
+  letter-spacing: 3px;
+  word-spacing: 5px;
+  /* text-align: justify; */
+  text-align: center;
+}
+
+.home {
+  width: 100vw;
+  text-align: center;
+  display: block;
+}
