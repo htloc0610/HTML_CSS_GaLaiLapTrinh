@@ -1,0 +1,28 @@
+strong {
+  /* text-decoration: underline; */
+  /* text-decoration: line-through; */
+  /* text-decoration: underline line-through; */
+  /* text-indent: 40px;
+  display: inline-block; */
+}
+
+/* p {
+  text-indent: 30px;
+  text-transform: capitalize;
+} */
+
+/* white-space: quy định về khoảng trắng khi code */
+p {
+  /* white-space: nowrap; */
+  /* Giữ nguyên dấu xuống dòng còn lại sẽ xử lý */
+  /* white-space: pre-line; */
+  /* Xử lý hết */
+  /* white-space: pre; */
+  /* Không đủ khoảng cách cho chữ sẽ xuống dòng */
+  /* white-space: pre-wrap; */
+}
+
+p {
+  background-color: yellow;
+  word-break: break-all;
+}
