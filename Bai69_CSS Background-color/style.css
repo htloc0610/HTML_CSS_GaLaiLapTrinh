@@ -1,0 +1,9 @@
+.box {
+  width: 250px;
+  height: 250px;
+  color: yellow;
+  background-color: transparent;
+  background-color: red;
+  background-color: rgba(141, 8, 8, 0.479);
+  background-color: currentColor;
+}
