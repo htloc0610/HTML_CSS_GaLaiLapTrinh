@@ -1,0 +1,17 @@
+.box {
+  height: 300px;
+  background-image: url(./img/premium_photo-1727456263974-0a6b1a8c1638.avif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: scroll;
+}
+
+.test_local {
+  height: 200px;
+  width: 70%;
+  overflow: auto;
+  background-image: url(./img/premium_photo-1727456263974-0a6b1a8c1638.avif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: local;
+}
