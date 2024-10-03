@@ -1,0 +1,11 @@
+/* circle(): cắt hình tròn */
+/* inset(): cắt hình chữ nhật */
+/* polygon(): cắt hình đa giác */
+.box {
+  width: 200px;
+  height: 200px;
+  background: url(./img/premium_photo-1727456263974-0a6b1a8c1638.avif);
+  background-size: contain;
+  /* clip-path: inset(10px round 20px 80px); */
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 50% 80%, 0 100%);
+}

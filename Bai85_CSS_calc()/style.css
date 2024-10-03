@@ -1,0 +1,16 @@
+/* * {
+  border: #da2929 1px dotted;
+} */
+.nav {
+  height: 80px;
+  width: calc(100% - 100px);
+  background-color: #da2929;
+  margin: 0 auto;
+}
+
+/* body chỉ dãn ra theo nội dung */
+.main_content {
+  background-color: rgb(23, 202, 202);
+  width: 100vw;
+  height: calc(100vh - 80px);
+}

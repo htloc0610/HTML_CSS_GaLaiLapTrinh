@@ -1,2 +1,29 @@
 .box {
+  width: 200px;
+  height: 200px;
+  background-image: url(./img/premium_photo-1727456263974-0a6b1a8c1638.avif);
+  background-size: cover;
+  border: 50px dotted red;
+  padding: 50px;
+  /* background-clip: padding-box; */
+  /* Gốc của ảnh */
+  background-origin: padding-box;
+  background-origin: border-box;
+  background-origin: content-box;
+}
+
+@supports (background-clip: text) or (-webkit-background-clip: text) {
+  .text_h1 {
+    /* Làm trong suốt */
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    background-color: #4158d0;
+    background-image: linear-gradient(
+      43deg,
+      #4158d0 0%,
+      #c850c0 46%,
+      #ffcc70 100%
+    );
+  }
 }

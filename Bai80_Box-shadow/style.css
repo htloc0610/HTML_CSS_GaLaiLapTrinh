@@ -1,0 +1,13 @@
+.box {
+  width: 150px;
+  height: 150px;
+  margin: 100px;
+  background-color: pink;
+  /* x y color */
+  /* box-shadow: 60px -16px teal; */
+  /* box-shadow: 15px 18px 11px 0px thistle; */
+  /* box-shadow: inset 50px 50px 4px yellow; */
+  /* Đổ nhiều bóng */
+  box-shadow: 160px 0 green, 0 160px red;
+  border-radius: 15px;
+}

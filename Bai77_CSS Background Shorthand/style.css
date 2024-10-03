@@ -1,0 +1,14 @@
+.box {
+  width: 200px;
+  height: 200px;
+  border: 50px dotted red;
+  padding: 50px;
+
+  background-color: cadetblue;
+  background-image: url(./img/premium_photo-1727456263974-0a6b1a8c1638.avif);
+  background-position: center;
+  background-clip: content-box;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-origin: content-box;
+}
