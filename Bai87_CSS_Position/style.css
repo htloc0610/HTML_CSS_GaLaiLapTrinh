@@ -1,0 +1,57 @@
+.box {
+  width: 100px;
+  height: 100px;
+  /* Căn giữa */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box1 {
+  background: rgb(105, 17, 17);
+  position: static;
+}
+
+.box2 {
+  background: rgb(69, 32, 178);
+  position: relative;
+  left: 150px;
+  bottom: 50px;
+}
+
+.box3 {
+  background: rgb(255, 0, 140);
+  position: relative;
+  bottom: 50px;
+}
+
+.content2 {
+  width: 300px;
+  height: 300px;
+  background-color: #921313;
+  position: relative;
+}
+
+.boxx {
+  width: 100px;
+  height: 100px;
+  /* Căn giữa */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.boxx1 {
+  background: rgb(105, 17, 17);
+}
+
+.boxx2 {
+  background: rgb(69, 32, 178);
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.boxx3 {
+  background: rgb(255, 0, 140);
+}

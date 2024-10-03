@@ -1,0 +1,13 @@
+:root {
+  --box-height: 100px;
+  --box-color: #0ff;
+}
+
+.box1,
+.box2,
+.box3 {
+  border: red 2px double;
+  margin-bottom: 10px;
+  height: var(--box-height);
+  background-color: var(--box-color);
+}
