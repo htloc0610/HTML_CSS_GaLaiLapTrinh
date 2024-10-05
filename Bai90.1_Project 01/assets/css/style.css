@@ -1,0 +1,111 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  height: 10000px;
+
+  font-size: 1.6rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* ==================================================== */
+a {
+  text-decoration: none;
+}
+
+.main-content {
+  width: 1170px;
+  margin: 0 auto;
+  max-width: calc(100% - 48px);
+}
+
+.header {
+  background-color: #fffcf4;
+}
+
+.header.fixed {
+  position: sticky;
+  top: -28px;
+}
+
+.header .body {
+  display: flex;
+  align-items: center;
+  padding: 36px 0 8px;
+}
+
+.nav ul {
+  display: flex;
+}
+
+.nav {
+  margin-left: auto;
+}
+
+.nav a {
+  color: #5f5b53;
+  text-align: center;
+  /* font-family: Poppins; */
+  font-size: 1.6rem;
+  /* font-style: normal;
+  font-weight: 40rem; */
+  /* line-height: 2.8rem; */
+  /* background-color: blue; */
+  /* margin: 8px 21px; */
+  padding: 0.8rem 2.1rem;
+  position: relative;
+}
+
+.nav li.active a,
+.nav a:hover {
+  color: #171100;
+  /* text-align: center;
+  font-family: Popins; */
+  font-size: 1.6rem;
+  /* font-style: normal; */
+
+  /* Thay font-weith bằng text-shadow */
+  /* font-weight: 600; */
+  text-shadow: 1px 0 0 currentColor;
+  /* line-height: 28px; */
+}
+
+.nav li.active a::after {
+  position: absolute;
+  left: 21px;
+  bottom: 6px;
+  display: block;
+  content: "";
+  width: 1.2rem;
+  height: 0.2rem;
+  border-radius: 0.1rem;
+  background-color: #171100;
+}
+
+.btn {
+  display: inline-block;
+  min-width: 118px;
+  color: #fff;
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: 600;
+  background-color: #171100;
+  border-radius: 24.5px;
+  padding: 0px 16px;
+  line-height: 50px;
+}
+
+.btn-sign-up {
+  min-width: 144px;
+}
+
+.header .action {
+  margin-left: 49px;
+}
