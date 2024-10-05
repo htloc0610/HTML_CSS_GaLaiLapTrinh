@@ -1,0 +1,23 @@
+* {
+  font-size: 1.5rem;
+}
+
+body {
+  margin: 0px;
+}
+
+.container {
+  display: flex;
+  /* height: 200px; */
+  background-color: cyan;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.box {
+  background-color: blue;
+}
+
+.box1 {
+  height: 100px;
+}

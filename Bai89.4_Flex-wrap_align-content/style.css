@@ -1,0 +1,13 @@
+.container {
+  display: flex;
+  background-color: cyan;
+  flex-wrap: wrap;
+  height: 400px;
+  align-content: space-evenly;
+}
+
+.box {
+  width: 30%;
+  background-color: blue;
+  border: 1px solid black;
+}
