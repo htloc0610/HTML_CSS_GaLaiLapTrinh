@@ -1,0 +1,25 @@
+* {
+  font-size: 1.5rem;
+}
+
+.container {
+  height: 150px;
+  display: flex;
+  background-color: #ccc;
+  align-items: flex-start;
+}
+
+.box {
+  background-color: blue;
+  border: 1px solid brown;
+}
+
+.box1 {
+  align-self: center;
+  flex-grow: 1;
+}
+
+.box2,
+.box3,
+.box4 {
+}

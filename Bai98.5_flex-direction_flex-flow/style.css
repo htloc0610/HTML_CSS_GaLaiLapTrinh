@@ -1,0 +1,13 @@
+.box {
+  background-color: blue;
+  border: 1px solid black;
+}
+
+.container {
+  height: 200px;
+  display: flex;
+  background-color: cyan;
+  flex-direction: column-reverse;
+  justify-content: flex-end;
+  /* align-items: flex-end; */
+}
