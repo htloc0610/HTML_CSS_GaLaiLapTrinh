@@ -15,13 +15,18 @@
   align-items: center;
 }
 
+/* align-content: căn các item trong khối container theo trục column */
 .container {
   display: grid;
   grid-template-columns: 100px 200px;
   grid-template-rows: 50px 100px 200px;
   align-items: stretch;
+  height: 100vh;
+  background-color: yellow;
   /* align-items: center;
   align-items: end; */
-  justify-items: center;
+  /* justify-items: center; */
+  align-content: center;
+  justify-content: center;
   gap: 5px 10px;
 }
