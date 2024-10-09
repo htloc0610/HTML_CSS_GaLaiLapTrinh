@@ -1,0 +1,16 @@
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid blue;
+}
+
+/* align-content: căn các item trong khối container theo trục column */
+.container {
+  display: grid;
+  gap: 5px;
+  /* grid-auto-flow: row;
+  grid-template-columns: repeat(5, 140px); */
+  grid-auto-flow: column;
+  grid-template-rows: repeat(3, 50px);
+}
