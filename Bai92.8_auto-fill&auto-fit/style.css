@@ -1,0 +1,21 @@
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid blue; */
+  background-color: blue;
+  border-radius: 5px;
+  color: #fff;
+}
+
+/* align-content: căn các item trong khối container theo trục column */
+/* auto-fill tự thêm ô, auto-fit tự dãn ra */
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 5px;
+  /* grid-auto-flow: row;
+    grid-template-columns: repeat(5, 140px); */
+  /* grid-auto-flow: column;
+  grid-template-rows: repeat(3, 50px); */
+}
