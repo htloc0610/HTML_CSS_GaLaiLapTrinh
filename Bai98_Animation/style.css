@@ -1,0 +1,63 @@
+@keyframes spin_element {
+  from {
+    rotate: 0;
+  }
+  to {
+    rotate: 360deg;
+  }
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  margin: 100px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: yellow;
+  animation: spin_element 5s ease 3s 4 alternate;
+}
+
+/* name duration timing-function delay iteration-count direction fill-mode */
+.container {
+  padding: 200px;
+  height: 100vh;
+  background-color: #000;
+  display: flex;
+  justify-self: center;
+  align-items: center;
+}
+
+.spinner {
+  --size: 200px;
+  --first-color: blue;
+  --second-color: yellow;
+  position: relative;
+  color: aliceblue;
+  font-size: 1.5rem;
+}
+
+.spinner::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  translate: -50% -50%;
+  width: var(--size);
+  height: var(--size);
+  border: 20px solid var(--first-color);
+  border-top: 20px solid var(--second-color);
+  border-radius: 50%;
+  animation: spin 3s ease-in-out infinite alternate-reverse;
+  box-shadow: 0 0 10px var(--first-color);
+}
+
+@keyframes spin {
+  from {
+    rotate: 0;
+  }
+  to {
+    rotate: 360deg;
+  }
+}

@@ -1,0 +1,32 @@
+.container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: cyan;
+}
+
+/* Box shadow */
+img {
+  /* box-shadow: 0 0 20x black; */
+}
+/* 
+img {
+  filter: drop-shadow(0 0px 20px black);
+} */
+
+.chat {
+  max-width: 300px;
+  font-size: 1.2rem;
+  filter: drop-shadow(0 0 2px black);
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 5px;
+  border: 20px solid;
+  border-color: black transparent transparent;
+}
+
+.icon {
+  filter: brightness(0) saturate(100%) invert(22%) sepia(94%) saturate(3080%)
+    hue-rotate(260deg) brightness(104%) contrast(105%);
+}
