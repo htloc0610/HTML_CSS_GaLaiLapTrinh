@@ -1,0 +1,52 @@
+/* .box {
+  background-color: blue;
+  width: 300px;
+  height: 300px;
+}
+
+@media (max-width: 600px), (min-width: 1000px) {
+  .box {
+    background-color: red;
+    width: 200px;
+    height: 200px;
+  }
+}
+
+@media print {
+  .box {
+    background-color: yellow;
+  }
+}
+
+@media (orientation: landscape) {
+  .box {
+    background-color: yellow;
+  }
+} */
+
+/* .box {
+  background-color: blue;
+  width: 300px;
+  height: 300px;
+}
+
+@media (min-width: 319px) and (max-width: 480px) {
+  .box {
+    background-color: yellow;
+  }
+} */
+
+.blog {
+  background-color: cyan;
+}
+
+/* claim(<min>, <ideal>, <max>)
+kẹp 1 giá trị giữa giới hạn trên và dưới, giữa trên giá trị lý tưởng đã đặt
+*/
+.blog {
+  width: min(800px, 100%);
+  width: max(800px, 100%);
+  width: clamp(300px, 100%, 1170px);
+  font-style: clamp(18px, 2vw, 24px);
+  margin: 0 auto;
+}
