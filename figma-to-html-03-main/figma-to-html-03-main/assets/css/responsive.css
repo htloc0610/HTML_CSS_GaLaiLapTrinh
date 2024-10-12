@@ -1,0 +1,357 @@
+/* PC */
+@media (min-width: 992px) {
+  .mobile-header {
+    display: none;
+  }
+}
+
+/* Table & Mobile */
+@media (max-width: 991.98px) {
+  /* Ẩn navbar */
+  .navbar {
+    display: none;
+  }
+  /* Chuyển logo giữa */
+  .header-top {
+    position: relative;
+  }
+  .header__logo {
+    position: absolute;
+    left: 50%;
+    translate: -50% -50%;
+  }
+  /* Căn lại menu */
+  .menu-header__icon {
+    margin-top: 10px;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 28px;
+    left: 26px;
+    color: #fff;
+  }
+  /* Overlay */
+  .menu-overlay {
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.3);
+    inset: 0;
+    z-index: 1;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.5s;
+  }
+
+  /* Ktra menu checkbox */
+  .menu-checkbox:checked ~ .menu-overlay {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  /* Menu-draw */
+  .menu-drawer {
+    position: fixed;
+    background-color: #2e1919;
+    inset: 0 40% 0 0;
+    z-index: 2;
+    transform: translateX(-100%);
+    transition: 0.5s;
+    padding: 60px;
+  }
+  /* Checkbox check */
+  .menu-checkbox:checked ~ .menu-drawer {
+    transform: translateX(0);
+  }
+  /* Menu top */
+  .close__menu {
+    width: 24px;
+    color: #fff;
+  }
+
+  .menu-drawer__top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  #navbar__list--mobile {
+    margin-top: 25px;
+  }
+
+  .navbar__link {
+    display: block;
+    font-size: 2rem;
+  }
+
+  .navbar__link:hover {
+    background-color: #00ffff37;
+  }
+
+  .hero {
+    flex-direction: column;
+    row-gap: 50px;
+  }
+
+  .hero__content {
+    order: 2;
+  }
+
+  .hero__media {
+    order: 1;
+  }
+
+  .hero__content {
+    width: 80%;
+    text-align: center;
+    margin: 22px auto;
+  }
+
+  .hero__row {
+    justify-content: center;
+  }
+
+  /* Service */
+  .service__row {
+    flex-direction: column;
+  }
+
+  .service__img {
+    width: 100%;
+  }
+
+  .service__row {
+    row-gap: 20px;
+  }
+
+  .service__list {
+    text-align: center;
+  }
+
+  .service-item {
+    width: 80%;
+  }
+
+  .service-item__body {
+    text-align: start;
+  }
+
+  /* Work-list */
+  .work__list {
+    grid-template-columns: 1fr;
+    row-gap: 30px;
+  }
+
+  .about-row {
+    flex-direction: column;
+    row-gap: 30px;
+  }
+
+  img.about__img--small {
+    display: none;
+  }
+
+  .about__media {
+    width: 100%;
+  }
+
+  .about__img--big {
+    width: 100%;
+    border-radius: 15px;
+    margin: 25px auto;
+  }
+
+  .about-content {
+    width: 90%;
+    text-align: center;
+  }
+
+  .team__list {
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 30px;
+  }
+
+  .team-item__img-bg {
+    text-align: center;
+  }
+
+  .team-item__thumb {
+    display: inline-block;
+  }
+
+  /* Install */
+  img.install__img {
+    display: none;
+  }
+
+  .install__content {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  /* Blog */
+  .blog__inner {
+    flex-direction: column;
+    row-gap: 30px;
+  }
+
+  .blog__content {
+    margin: 0 auto;
+    text-align: center;
+    order: 2;
+  }
+
+  .blog-list {
+    order: 1;
+  }
+
+  .blog__content {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .blog__heading {
+    max-width: 100%;
+  }
+
+  .footer__top {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* Tablet */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  /* Footer */
+  .footer-hiden-tablet {
+    display: none;
+  }
+
+  .footer__top {
+    grid-template-columns: 0.5fr 0.5fr 1fr;
+  }
+
+  .show-on-mobile {
+    display: none;
+  }
+}
+
+/* Mobile */
+@media (max-width: 767.98px) {
+  .header__action {
+    display: none;
+  }
+
+  .menu-header__icon {
+    top: 10px;
+  }
+
+  .menu-drawer {
+    padding: 35px;
+    inset: 0 20% 0 0;
+  }
+
+  .navbar__item {
+    list-style: none;
+  }
+
+  /* Vạch kẻ */
+  .separate {
+    border-top: 1.5px solid #8c8b8c;
+    margin-top: 10px;
+  }
+
+  .hero__img-small {
+    display: none;
+  }
+
+  .hero__img-big {
+    width: 100%;
+    height: auto;
+  }
+
+  .hero__heading {
+    font-size: 4rem;
+  }
+
+  .hero__row {
+    flex-direction: column;
+    row-gap: 30px;
+  }
+
+  .service {
+    padding: 100px 0;
+  }
+
+  .service__desc {
+    width: auto;
+  }
+
+  .service__img {
+    width: 100%;
+    height: auto;
+  }
+
+  .service__list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .service-item {
+    width: 90%;
+  }
+
+  .work__desc {
+    width: auto;
+  }
+
+  .work-item {
+    padding: 20px;
+  }
+
+  .about {
+    margin-top: 45px;
+    padding: 55px 0px;
+  }
+
+  .team__list {
+    grid-template-columns: 1fr;
+  }
+
+  .install__inner {
+    margin: 80px 0 85px;
+    padding: 0 8px;
+    height: 500px;
+  }
+
+  .install__content {
+    min-width: 20px;
+  }
+
+  .section-heading {
+    font-size: 4rem;
+  }
+
+  .install__desc {
+    font-size: 1.5rem;
+  }
+
+  .blog__list {
+    grid-template-columns: 1fr;
+    row-gap: 30px;
+  }
+
+  .appointment__inner {
+    padding: 30px 5px;
+  }
+
+  .footer__top {
+    grid-template-columns: 1fr;
+    row-gap: 30px;
+  }
+
+  .footer__copyright {
+    margin-top: 35px;
+  }
+}
